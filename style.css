@@ -4,7 +4,7 @@ html{background:var(--ink)}
 body{margin:0;color:var(--cream);background:var(--ink);font:400 1.15rem/1.6 "Cormorant Garamond",Georgia,serif}
 a{color:var(--brass)}
 a:focus-visible,.btn:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
-.hero{min-height:88vh;display:flex;align-items:center;background:linear-gradient(90deg,rgba(28,10,18,.92) 0%,rgba(28,10,18,.55) 55%,rgba(28,10,18,.1) 100%),url(img/curtain.jpg) center/cover}
+.hero{min-height:88vh;display:flex;align-items:center;background:linear-gradient(90deg,rgba(28,10,18,.92) 0%,rgba(28,10,18,.55) 55%,rgba(28,10,18,.1) 100%),url(img/curtain.jpg) 80% center/cover}
 .wrap{width:min(68rem,100% - 2rem);margin:0 auto}
 .mark{width:84px;height:84px}
 h1{font:400 clamp(2.4rem,7vw,4.6rem)/1.05 Limelight,serif;margin:.6rem 0 .4rem}
@@ -33,3 +33,4 @@ h3{font:400 1.4rem/1.2 Limelight,serif;margin:.4rem 0}
 .doc figure{margin:1.5rem 0}
 .doc img{display:block;width:100%;height:auto}
 .said{font-style:italic;font-weight:600;color:var(--brass)}
+@media (max-width:40rem){.hero{background-position:35% center}}
