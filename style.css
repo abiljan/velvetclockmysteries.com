@@ -21,8 +21,6 @@ footer{padding:2rem 0 3rem;border-top:1px solid rgba(224,185,106,.3);font-size:1
 .doc{max-width:44rem;padding:3rem 0}
 .doc h1{font-size:clamp(2rem,6vw,3rem)}
 .doc h2{font-size:1.3rem;margin-top:2rem}
-.intro{padding-bottom:0}
-.intro video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:var(--ink);border:1px solid rgba(224,185,106,.3)}
 h3{font:400 1.4rem/1.2 Limelight,serif;margin:.4rem 0}
 .soon .case{border-top:1px solid var(--brass);padding-top:1rem}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
